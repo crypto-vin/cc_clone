@@ -2,7 +2,7 @@ import os
 
 # Function to rename multiple files
 def main():
-    path="./about/"
+    path="./report/"
     for filename in os.listdir(path):
         if filename.startswith('hindu_'):
             my_dest = f"{filename[6:]}"
