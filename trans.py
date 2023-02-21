@@ -3,8 +3,8 @@ from googletrans import Translator
 from bs4 import BeautifulSoup
 
 translator = Translator()
-path = './'
-new_path = './hindu'
+path = './report/author'
+new_path = './report/author/hindu'
 
 if not os.path.exists(new_path):
     os.makedirs(new_path)
