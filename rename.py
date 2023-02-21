@@ -2,7 +2,7 @@ import os
 
 # Function to rename multiple files
 def main():
-    path="./institution/"
+    path="./about/"
     for filename in os.listdir(path):
         if filename.startswith('hindu_'):
             my_dest = f"{filename[6:]}"
@@ -17,5 +17,5 @@ def strip():
 
 # Driver Code
 if __name__ == '__main__':
-	# main()
-    strip()
+    main()
+    #strip()
